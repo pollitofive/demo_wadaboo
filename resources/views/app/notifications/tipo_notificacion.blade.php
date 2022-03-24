@@ -1,0 +1,30 @@
+@switch($tipo)
+    @case('App\Notifications\NotificationSeHizoUnaPregunta')
+        @lang('notifications.events.you-were-asked-a-question')
+    @break
+    @case('App\Notifications\NotificationSeRespondioUnaPregunta')
+        @lang('notifications.events.you-had-a-question-answered')
+    @break
+    @case('App\Notifications\NotificationUnProcesoHaFinalizado')
+        @lang('notifications.events.a-publication-you-offered-has-ended')
+    @break
+    @case('App\Notifications\NotificationUnProcesoHaFinalizadoComprador')
+        @lang('notifications.events.a-publication-of-yours-has-ended')
+    @break
+    @case('App\Notifications\NotificationSeSuperoUnaOferta')
+        @lang('notifications.events.one-of-your-offers-was-beaten')
+    @break
+    @case('App\Notifications\NotificationUnProcesoHaSidoPublicado')
+        @lang('notifications.events.a-new-publication-may-interest-you')
+    @break
+    @case('SinAlertaCargada')
+        @lang('notifications.events.we-need-you-to-complete-the-email-alerts')
+    @break
+    @case('App\Notifications\NotificationUnProcesoHaFinalizado')
+        @if($notificacion->data['user_id'] == auth()->user()->id)
+            @lang('notifications.events.a-publication-of-yours-has-ended')
+        @else
+            @lang('notifications.events.a-publication-you-bid-on-ended')
+        @endif
+    @break
+@endswitch

@@ -1,0 +1,125 @@
+<?php
+
+return [
+    'welcome' => [
+        'register' => 'Register',
+        'welcome-to' => 'Welcome to',
+        'please-confirm-your-email' => 'Please confirm your email address by clicking the button below.',
+        'Confirm' => 'Confirm',
+    ],
+    'events' => [
+        'title' => 'Notifications',
+        'see-all' => 'See all',
+        'mark-all-as-read' => 'Mark all as read',
+        'you-were-asked-a-question' => 'You were asked a question',
+        'a-publication-you-offered-has-ended' => 'A publication you offered has ended',
+        'you-had-a-question-answered' => 'You had a question answered',
+        'a-publication-of-yours-has-ended' => 'A publication of yours has ended',
+        'one-of-your-offers-was-beaten' => 'One of your offers was beaten',
+        'a-new-publication-may-interest-you' => 'A new publication may interest you',
+        'we-need-you-to-complete-the-email-alerts' => 'We need you to complete the email alerts',
+        'a-publication-you-bid-on-ended' => 'A publication you bid on ended',
+        'date' => 'Date',
+        'type' => 'Type',
+        'message' => 'Message',
+        'has-been-read' => 'Has been read?',
+        'unread' => 'Unread',
+        'read' => 'Read',
+    ],
+    'system-welcome' => [
+        'welcome-to' => 'Welcome to',
+        'hello' => 'Hello,',
+        'i-am-daniel' => "I'm Daniel Blitman, Co-founder of Wadaboo.",
+        'i-want-to-give-you' => 'I want to thank you for joining our growing community so that you can save together with other buyers and suppliers on the new collective buying platform with reverse auction system.',
+        'if-you-want' => 'If you want to be a **BUYER**, we recommend these tips:',
+        'go-to-my-account' => 'Go to the top left to **My account** and fill in your details under **Main details**.',
+        'in-the-tab' => 'In the tab **Publications** click on **New publication** and detail as much as possible your purchase need and publish it.',
+        'answer-the-questions' => 'Answer their questions as quickly and clearly as possible so that suppliers can offer the right product.',
+        'wait-for-the-reverse-auction-to-end' => 'Wait for the reverse auction to end.',
+        'contact-the-provider' => 'Contact the supplier by clicking on **My purchases** and then **Finished**.',
+        'if-you-want-be-seller' => 'If you want to be a **SELLER**, we recommend these tips:',
+        'it-is-essential-that-you-have-the-alarms-activated' => 'It is essential that you have your alarms activated, so that when there is a publication in the category you like, you will receive a notification. To do this you have to go to **My account**, then **Seller Alerts**, and select the categories and subcategories you are interested in.',
+        'explore-reverse-auctions' => 'Explore the reverse auctions already published in **Publications**.',
+        'ask-any-questions-you-want' => 'Ask as many questions as you want to make sure that the product you are offering is the right one.',
+        'if-you-are-already-sure-you-can-participate' => 'If you are already sure you can participate, place your bid. Every time you are outbid you will receive a notification in your email so that you can continue bidding.',
+        'if-you-won-the-reverse-auction' => 'If you won the reverse auction, congratulations!, you can now contact your buyer and follow up the auction under **My bids** and then under **Finished**.',
+        'do-you-have-any-doubts-about-how-it-works' => 'Do you have any doubts about how it works? We recommend you read our',
+        'frequently-asked-questions' => 'Frequently Asked Questions',
+        'you-have-a-problem-or-wish-to-comment' => 'Do you have a problem, want to comment or just want to say hello? No worries. Let me know or contact our support team at',
+        'check-out-our' => 'Check out our',
+        'blog' => 'blog',
+        'and-find-out-some-tips-and-news' => 'and find out some tips and news about group buying, tips and more. You can keep up to date with Wadaboo\'s latest developments, new features and updates on the following social networks:',
+        'i-hope-your-stay-in-Wadaboo-will-be-fruitful.' => 'I hope your stay at Wadaboo will be fruitful. Collective purchasing is the future, my friend. And we are here to help you.',
+        'if-you-want-to-contact-me' => 'P.S. If you want to communicate with me, you can tweet me anytime.',
+        'buy-for-free-sell-easy' => 'Buy for free - Sell easy',
+    ],
+    'custom-reset-password' => [
+        'subject' => 'Restart password in',
+        'line1' => 'You have requested to reset your password. To do so, click on "Recover password".',
+        'action' => 'Recover password',
+        'line2' => 'If you have not requested a password reset, please ignore this e-mail. Your password will not be changed.'
+    ],
+    'custom-verify-email' => [
+        'subject' => 'Welcome to',
+        'line1' => 'Welcome to Wadaboo. Please confirm your email address by clicking the button below.',
+        'action' => 'Confirm email',
+        'line2' => 'If you are not the one who registered, you don\'t have to do anything.'
+    ],
+    'se-hizo-una-pregunta' => [
+        'subject' => 'You have been asked a question on ',
+        'hello' => 'Hello',
+        'you-have-been-asked-a-question-in' => 'You have been asked a question in',
+        'in-the-publication' => 'in the publication',
+        'question' => 'Question',
+        'you-can-answer-it' => 'You can answer it by clicking on the following link',
+        'see-publication' => 'See publication',
+        'thank-you-for-using' => 'Thank you for using',
+    ],
+    'se-respondio-una-pregunta' => [
+        'subject' => 'You have had a question answered on wadaboo',
+        'you-have-had-a-question-answered-in' => 'You have had a question answered in',
+        'Answer' => 'Respuesta',
+        'you-can-see-it' => 'You can view it by clicking on the following link',
+    ],
+    'se-supero-una-oferta' => [
+        'subject' => 'Una de tus ofertas fue superada',
+        'offer-exceeded' => 'Offer exceeded',
+        'the-following-offer-you-made-in' => 'The following offer you made in',
+        'was-exceeded' => 'Was exceeded',
+        'item' => 'Item',
+        'you-offered' => 'You offered',
+        'see' => 'See'
+    ],
+    'un-proceso-ha-finalizado' => [
+        'subject' => 'Results of a completed publication',
+        'publication-completed' => 'Publication completed',
+        'the-result-of-the-publication' => 'The result of the publication',
+        'was-the-following' => 'was the following',
+        'the-auction-of-the-item' => 'the auction of the item',
+        'you-can-see-the-results' => 'You can see the results in the following link',
+    ],
+    'un-proceso-ha-finalizado-comprador' => [
+        'subject' => 'A publication of yours has ended',
+        'publication-completed' => 'Publication completed',
+        'the-publication' => 'La publicación',
+        'has-finished' => 'has finished',
+    ],
+    'un-proceso-ha-sido-modificado' => [
+        'subject' => 'A publication that you offered has been modified',
+        'publication-amended' => 'Publication amended',
+        'you-offered-there-were-modifications-by-the-buyer' => 'you offered there were modifications by the buyer',
+    ],
+    'un-proceso-ha-sido-publicado' => [
+        'subject' => 'New request for quotation',
+        'someone-posted-a-new-process' => 'Someone posted a new process',
+        'someone-posted-a-process-with-the-title' => 'Someone posted a process with the title',
+        'there-are-subcategories-you-subscribed-to' => 'there are subcategories you subscribed to',
+        'in-the-subcategory' => 'in the subcategory',
+        'the-item' => 'The item',
+        'with-quantity' => 'with quantity',
+        'you-can-bid-on-this-publication' => 'You can bid on this publication at the following link'
+    ]
+
+];
+
+?>
